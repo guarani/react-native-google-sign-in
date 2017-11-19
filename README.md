@@ -45,7 +45,7 @@ dependencies {
     compile "com.facebook.react:react-native:+"
 }
 
-apply plugin: "com.google.gms.google-services" // Add this after dependencies.
+apply plugin: "com.google.gms.google-services" // *Important* Add this AFTER dependencies (i.e. at the end of the file).
 ```
 
  - Modify your `{YourApp}/android/app/src/main/java/com/{YourApp}/MainApplication.java`:
